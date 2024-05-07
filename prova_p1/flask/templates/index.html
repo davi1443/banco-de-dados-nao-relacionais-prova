@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionários</title>
+</head>
+<body>
+    <h1>Cadastro de Funcionários</h1>
+    <form action="processar_cadastro.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+        
+        <label for="data_de_admissao">Data de Admissão:</label>
+        <input type="date" id="data_de_admissao" name="data_de_admissao" required><br><br>
+        
+        <label for="status_funcionario">Status do Funcionário:</label>
+        <select id="status_funcionario" name="status_funcionario" required>
+            <option value="1">Ativo</option>
+            <option value="0">Inativo</option>
+        </select><br><br>
+        
+        <label for="id_setor">Setor:</label>
+        <select id="id_setor" name="id_setor" required>
+            <option value="1">Financeiro</option>
+            <option value="2">Recursos Humanos</option>
+            <option value="3">TI</option>
+        </select><br><br>
+        
+        <label for="id_cargo">Cargo:</label>
+        <select id="id_cargo" name="id_cargo" required>
+            <option value="1">Analista Financeiro</option>
+            <option value="2">Assistente de RH</option>
+            <option value="3">Desenvolvedor</option>
+        </select><br><br>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
