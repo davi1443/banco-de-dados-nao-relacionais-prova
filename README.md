@@ -1,6 +1,6 @@
 # banco-de-dados-nao-relacionais-prova
 
-https://github.com/davi1443/banco-de-dados-nao-relacionais-prova/assets/103383379/7cebf7ca-c443-4fad-90f0-230d0cc95e16
+https://github.com/davi1443/banco-de-dados-nao-relacionais-prova/assets/103383379/ca22618a-26a7-4bd2-a0e1-808d1dc8f208
 
 ## Rodando projeto
 O projeto está separado em duas aplicações, a aplicação flask e a aplicação node. Para colocar a plicação flask para rodar entre no diretorio flask e de ```python app.py```
